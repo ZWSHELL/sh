@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tiny5&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Активировать код</title>
+</head>
+<body>
+    <header>
+        <img src="img/title.png" width="350px">
+        <br>
+        <h1 style="font-weight: lighter;"><a href="/" style="color: aliceblue; text-decoration: none;">⇠</a> Активировать код</h1>
+    </header>
+    <div class="root">
+        <div id="Splash1">
+        <p style="padding: 5px; text-align: center;"><br>
+        <span style="font-size: 19px;">Введите ник получателя<b style="color: red;">*</b>: </span>
+        <br>
+        <input id="name" placeholder="Ник-нейм получателя">
+        <br>
+        <br>
+        <p style="text-align: center;">
+        <input id="code" placeholder="Промокод">
+        <br><br><br>
+        </p>
+        <button id="RedeemButton" onclick="ActivatePromo(this)" style="border-radius: 0 0 15px 15px;">Активировать код</button>
+        </p>
+        </div>
+        <div id="Splash2" style="display: none;">
+            <span class="loader"></span>
+            <br>
+            <br>
+            <h3 style="font-weight: lighter;">Проверяем код...</h3>
+            <p>Вы получите уведомление в игре, если код успешно ативируется.</p>
+        </div>
+    </div>
+    <div class="AuL">
+        <span>MiniApp by <a href="https://t.me/Wertywin2353" style="color: aliceblue;">Wertywin2353</a> , v.0.1Rel-TG</span>
+    </div>
+    <iframe id="SendReq" hidden="" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="600px" allowfullscreen=""></iframe>
+    <script src="js/app.js"></script>
+    <script src="js/LazyLib-L.js"></script>
+</body>
+</html>
