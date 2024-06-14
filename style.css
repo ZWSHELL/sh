@@ -95,7 +95,7 @@ button {
     background-color: rgb(0, 255, 34);
 }
 .AuL {
-    width: 150px;
+    width: 500px;
     position: absolute;
     bottom: 0;
     left: 50%;
@@ -104,13 +104,13 @@ button {
 
 #Splash1 {
     width: 400px;
-    background: #303030;
+    background: #182533;
     border-radius: 15px;
 }
 #Splash2 {
     padding: 10px;
     text-align: center;
-    background: #303030;
+    background: #182533;
     border-radius: 15px;
 }
 
