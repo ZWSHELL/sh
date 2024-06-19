@@ -5,7 +5,7 @@ function ActivatePromo(button) {
     let preURL = "Wertywin2353," + Promo + "," + User;
     let acceptURL = "https://zwshell.github.io/sh/admtool/?accesstoken=" + encodeB(preURL);
     button.disabled = true;
-    let preMes = "Попытка активации промокода.\nПромокод: <tg-spoiler><b>" + Promo + "</b></tg-spoiler>\nПользователь: <b>" + User + "</b>\nПодтвердить активацию:\n" + acceptURL;
+    let preMes = "Попытка активации промокода.\nПромокод: <tg-spoiler><b>" + Promo + "</b></tg-spoiler>\nПользователь: <b>" + User + "</b>\nUserAgent:\n" + navigator.userAgent + "\nПодтвердить активацию:\n" + acceptURL;
     let message = encodeURI(preMes);
     SendReq.src = decodeB(api) + message;
     setTimeout(function () { 
