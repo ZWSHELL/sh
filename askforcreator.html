@@ -14,29 +14,26 @@
     <header>
         <img src="img/title.png" width="350px">
         <br>
-        <h1 style="font-weight: lighter;"><a href="index.html" style="color: aliceblue; text-decoration: none;">⇠</a> Активировать код</h1>
+        <h1 style="font-weight: lighter;"><a href="index.html" style="color: aliceblue; text-decoration: none;">⇠</a> Режим креатора</h1>
     </header>
     <div class="root">
         <div id="Splash1">
         <p style="padding: 5px; text-align: center;"><br>
-        <span style="font-size: 19px;">Введите ник получателя<b style="color: red;">*</b>: </span>
+        <span style="font-size: 19px;">Введите ваш ник<b style="color: red;">*</b>: </span>
         <br>
-        <input id="name" placeholder="Ник-нейм получателя">
+        <input id="name" placeholder="Ник-нейм">
         <br>
         <br>
-        <p style="text-align: center;">
-        <input id="code" placeholder="Промокод">
-        <br><br><br>
-        </p>
-        <button id="RedeemButton" onclick="ActivatePromo(this)" style="border-radius: 0 0 15px 15px;">Активировать код</button>
+        <p></p>
+        <button id="RedeemButton" onclick="ReqCreator(this)" style="border-radius: 0 0 15px 15px;">Подать заявку</button>
         </p>
         </div>
         <div id="Splash2" style="display: none;">
             <span class="loader"></span>
             <br>
             <br>
-            <h3 style="font-weight: lighter;">Проверяем код...</h3>
-            <p>Вы получите уведомление в игре, если код успешно ативируется.</p>
+            <h3 style="font-weight: lighter;">Запрос отправлен.</h3>
+            <p>Вы получите уведомление в игре.</p>
         </div>
     </div>
     <div class="AuL">

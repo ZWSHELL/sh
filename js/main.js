@@ -5,6 +5,12 @@ function GoTo(Target_ID) {
     else if(Target_ID == "CreatorTop") {
         window.location.href = "creators.html";
     }
+    else if(Target_ID == "Report") {
+        window.location.href = "rep.html";
+    }
+    else if(Target_ID == "AskForCreator") {
+        window.location.href = "askforcreator.html";
+    }
     else if(Target_ID == "NewsPage") {
         window.location.href = "https://t.me/ZeroWorldNews";
     }
